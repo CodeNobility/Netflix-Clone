@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600, 900&family=poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("img_folder/img_1.jpg");
+    height: 86vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 135vw);
+    background-position: center center;
+}
+
+.box {
+    height: 86vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 60px;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.inner_box {
+    height: calc(100% - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(242, 242, 242);
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 20px;
+    padding: 0 30px;
+
+}
+
+.inner_box> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.inner_box> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.inner_box> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(37, 35, 35);
+}
+
+.btn {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    content: '';
+    border-color: rgba(0, 0, 0, 0);
+    padding: 6px 33px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Martel Sans", sans-serif;
+    margin-left: 19px;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.368);
+}
+
+.upper_btn {
+    background-color: red;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    content: '';
+    border-color: rgba(0, 0, 0, 0);
+    padding: 6px 13px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Martel Sans", sans-serif;
+    margin-left: 19px;
+
+}
+
+.lower_btn {
+    height: 57px;
+    background-color: red;
+    color: white;
+    padding: 4px 28px;
+    font-size: 25px;
+    border-radius: 4px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.main input {
+    padding: 15px 155px 20px 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-style: solid;
+    color: aliceblue;
+    border-width: 0.0625rem;
+    border: 1px solid rgba(246, 238, 238, 0.6);
+    font-family: "Martel Sans", sans-serif;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: -5px;
+}
+
+.gmail_1 {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.first_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    max-width: 77vw;
+}
+
+.first_section_div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+.first_section_div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 5px;
+
+}
+
+.first_section_div :nth-child(2) {
+    font-size: 24px;
+}
+
+.first_section_div2 {
+    position: relative;
+}
+
+.first_section_div2 img {
+    width: 535px;
+    z-index: 1;
+    position: relative;
+}
+
+.first_section_div2 video {
+    position: absolute;
+    right: 79px;
+    max-width: 26.7vw;
+    top: 84px;
+    width: 535px;
+}
+
+.first_section_div3 {
+    position: relative;
+}
+
+.first_section_div3 img {
+    width: 37vw;
+    z-index: 1;
+    position: relative;
+}
+
+.first_section_div3 video {
+    position: absolute;
+    right: 96px;
+    max-width: 24vw;
+    top: 48px;
+}
+
+.fourth {
+    height: 68vh;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Martel Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 65px;
+}
+
+.faqbox img {
+    filter: invert(1);
+    font-weight: 600;
+}
+
+.faqbox {
+    transition: all 0.1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background: #2d2d2d;
+    padding: 27px;
+    max-width: 70vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.boxer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.gmail {
+    height: 34px;
+    width: 25vw;
+    font-size: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    background-color: black;
+    border: 1px solid rgb(255, 0, 0);
+    font-family: "Martel Sans", sans-serif;
+}
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    height: 26.1vh;
+    padding-top: 28px;
+}
+
+.question {
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.667);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.667);
+}
+
+@media screen and (max-width:1300px) {
+    .main {
+        background-size: max(1700px, 20vw);
+        height: 95vh;
+    }
+
+    .hero_btn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .hero_btn .gmail_1{
+        width: 40vw;
+    }
+    .first_section{
+        flex-wrap: wrap;
+    }
+    .first_section_div:nth-child(1){
+        font-size: 34px;
+    }
+    .first_section_div:nth-child(2){
+        font-size: 24px;
+    }
+
+    .main nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 45px;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+    }
+
+    .boxer:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .gmail {
+        margin: 45px;
+        width: 60vw;
+    }
+
+    .boxerr_btn {
+        margin-left: 68px;
+        width: 55vw;
+    }
+
+    .niche .btn {
+        margin-top: 158px;
+        padding-left: 30px;
+    }
+
+    .inner_box> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .inner_box> :nth-child(2) {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .inner_box> :nth-child(3) {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .inner_box {
+        height: 80vh;
+
+    }
+
+    .first_section_div2 img {
+        width: 305px;
+    }
+
+    .first_section_div2 video {
+        width: 305px;
+    }
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.niche {
+    max-width: 78vw;
+    margin: auto;
+    padding-bottom: 27px;
+    padding-top: 5px;
+}
+
+.tag {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.667);
+    max-width: 75vw;
+    margin: auto;
+
+}
+
+.blank {
+    height: 9vh;
+}
